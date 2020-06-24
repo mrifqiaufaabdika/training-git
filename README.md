@@ -2,6 +2,7 @@
 # contribution tutorial
 
 #as owner | as contributor
+---------- | ----------
 1 . create repo on github<br> | 3 . fork repo to contribut<br>
 2 . clone to local. `ok for next number see to bottom as contributor`<br> | 4 . clone repo to local with `git clone [url]`<br>
 9 . as owner accept notif for pull request<br> | 5 . add some file or edit file and show changes with `git status`<br>
