@@ -25,11 +25,4 @@ as owner | as contributor
 
 
 
-
-
-
-
-
-
-
-
+![gambar penjelasan](img/image.png)
