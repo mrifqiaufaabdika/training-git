@@ -2,27 +2,26 @@
 # contribution tutorial
 
 # as owner
-1 . create repo on github
-2 . clone to local
-9 . as owner accept notif for pull request
-10 . owner ask the url of contributor repo for review update
-11 . owner clone the contributor repo with `git remote add [name] [contributor-url]`
-12 . after clone repo, owner check avilable local repo with `git remote -v` this check is usefull to check clone status success or failed
-13 . after that as owner make new branch to pull contributor repo for review and avoid new commit comein to master branch with command `git branch [branch-name-for-review-contributor-commit]`
-14 . to check available branch can use this command `git branch`, active branch is mark with star (*) on the left
-15. after check available branch, as owner checkout to branch for review contributor commit with command `git checkout [branch-name]`
-16 . before review contributor commit, owner must pull changes from contributor repo which already cloned and named in step 11, run with this command `git pull [name] [branch-name-of-contributor-repo]`
-17 . now branch of contributor ready to review
-18 . if code is must revision as owner notif to contributor for revision
-
-23 . as owner accept notif from contributor to pull commit
-24 . as owner check current branch for avoid wrong pulling branch, check current branch with command `git branch`
-25 . now if current branch is true, as owner pull commit from contributro repo, with this command `git pull [name] [branch-name]`
-26 . owner review code after pull commit, if 'OK' as owner checkout to master branch with this command `git checkout master`
-27 . ok, current branch is master. as owner check git status for check any new or changed file with this command `git status`
-28 . if status is ok mean no new of changed file, as owner merge branch master with review branch, merge with this command `git merge [review-branch-name]`
-29 . after merge ok, now as owner push commit into git with this command `git push`
-30 . mission completed
+1 . create repo on github<br>
+2 . clone to local<br>
+9 . as owner accept notif for pull request<br>
+10 . owner ask the url of contributor repo for review update<br>
+11 . owner clone the contributor repo with `git remote add [name] [contributor-url]`<br>
+12 . after clone repo, owner check avilable local repo with `git remote -v` this check is usefull to check clone status success or failed<br>
+13 . after that as owner make new branch to pull contributor repo for review and avoid new commit comein to master branch with command `git branch [branch-name-for-review-contributor-commit]`<br>
+14 . to check available branch can use this command `git branch`, active branch is mark with star (*) on the left<br>
+15 . after check available branch, as owner checkout to branch for review contributor commit with command `git checkout [branch-name]`<br>
+16 . before review contributor commit, owner must pull changes from contributor repo which already cloned and named in step 11, run with this command `git pull [name] [branch-name-of-contributor-repo]`<br>
+17 . now branch of contributor ready to review<br>
+18 . if code is must revision as owner notif to contributor for revision<br>
+23 . as owner accept notif from contributor to pull commit<br>
+24 . as owner check current branch for avoid wrong pulling branch, check current branch with command `git branch`<br>
+25 . now if current branch is true, as owner pull commit from contributro repo, with this command `git pull [name] [branch-name]`<br>
+26 . owner review code after pull commit, if 'OK' as owner checkout to master branch with this command `git checkout master`<br>
+27 . ok, current branch is master. as owner check git status for check any new or changed file with this command `git status`<br>
+28 . if status is ok mean no new of changed file, as owner merge branch master with review branch, merge with this command `git merge [review-branch-name]`<br>
+29 . after merge ok, now as owner push commit into git with this command `git push`<br>
+30 . mission completed<br>
 
 
 # as contributor
