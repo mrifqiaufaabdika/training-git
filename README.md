@@ -7,7 +7,7 @@ as owner | as contributor
 9 . as owner accept notif for pull request<br> | 5 . add some file or edit file and show changes with `git status`<br>
 10 . owner ask the url of contributor repo for review update<br> | 6 . if any new files added, as contributor can add to git with `git add .` . if any files changed, as contributor can commit file to save changes into git with `git commit -m "update messages here"`<br>
 11 . owner clone the contributor repo with `git remote add [name] [contributor-url]`<br> | 7 . after that as contributor can push any commit or new file into git master with `git push`<br>
-12 . after clone repo, owner check avilable local repo with `git remote -v` this check is usefull to check clone status  | 8 . as contributor notif to owner to pull contributor repo, as contributor can share this notif with social media or pull request on github. `ok for next number see as owner`<br>success or failed<br> | 19 . as contributor accept notif from owner to revision<br>
+12 . after clone repo, owner check avilable local repo with `git remote -v` this check is usefull to check clone status success or failed<br> | 8 . as contributor notif to owner to pull contributor repo, as contributor can share this notif with social media or pull request on github. `ok for next number see as owner`<br> | 19 . as contributor accept notif from owner to revision<br>
 13 . after that as owner make new branch to pull contributor repo for review and avoid new commit comein to master branch  | 20 . contributor make revision and commit with command `git add . && git commit -m "update messages here"`<br>with command `git branch [branch-name-for-review-contributor-commit]`<br> | 21 . after that contributor push into contributor git master with command `git push`<br>
 14 . to check available branch can use this command `git branch`, active branch is mark with star (*) on the left<br> | 22 . as contributor send notif to owner for pull commit. `ok for next number see as owner`<br>
 15 . after check available branch, as owner checkout to branch for review contributor commit with command `git checkout [branch-name]`<br> | 
@@ -25,11 +25,4 @@ as owner | as contributor
 
 
 
-
-
-
-
-
-
-
-
+![gambar penjelasan](img/image.png)
