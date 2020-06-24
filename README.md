@@ -25,16 +25,13 @@
 
 
 # as contributor
-3 . fork repo to contribut
-4 . clone repo to local with `git clone [url]`
-5 . add some file or edit file and show changes with `git status`
-6 . if any new files added, as contributor can add to git with `git add .` . 
-if any files changed, as contributor can commit file to save changes into git with `git commit -m "update messages here"`
-7 . after that as contributor can push any commit or new file into git master with `git push`
-8 . as contributor notif to owner to pull contributor repo, as contributor can 
-share this notif with social media or pull request on github
-
-19 . as contributor accept notif from owner to revision
-20 . contributor make revision and commit with command `git add . && git commit -m "update messages here"`
-21 . after that contributor push into contributor git master with command `git push`
-22 . as contributor send notif to owner for pull commit
+3 . fork repo to contribut<br>
+4 . clone repo to local with `git clone [url]`<br>
+5 . add some file or edit file and show changes with `git status`<br>
+6 . if any new files added, as contributor can add to git with `git add .` . if any files changed, as contributor can commit file to save changes into git with `git commit -m "update messages here"`<br>
+7 . after that as contributor can push any commit or new file into git master with `git push`<br>
+8 . as contributor notif to owner to pull contributor repo, as contributor can share this notif with social media or pull request on github<br>
+19 . as contributor accept notif from owner to revision<br>
+20 . contributor make revision and commit with command `git add . && git commit -m "update messages here"`<br>
+21 . after that contributor push into contributor git master with command `git push`<br>
+22 . as contributor send notif to owner for pull commit<br>
